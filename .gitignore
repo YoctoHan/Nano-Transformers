@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# 环境（由 scripts/setup_env.sh 生成）
+.venv/
+.uv/
+
+# 本机容器启动脚本，含内网地址
+launch_docker.sh
+
+# 编译产物
+build/
+*.so
+compile_commands.json
+
+# Profiling 报告
+*.ncu-rep
+*.nsys-rep
+*.qdrep
